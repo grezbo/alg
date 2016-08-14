@@ -8,7 +8,7 @@ public class InsertionSort extends Sort {
     @Override
     public void sort(Comparable[] elems) {
         int len = elems.length;
-        if (elems == null || len <= 0)
+        if (len <= 0)
             return;
         for (int i = 1; i < len; i++){
             //将较小的元素逐个往前提替换
